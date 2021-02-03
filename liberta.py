@@ -30,7 +30,7 @@ def StartScreen():
     builds the front screen
     '''
     x = 15
-    start_screen = gamebox.from_image(400, 300, 'flamengo.jpg')
+    start_screen = gamebox.from_image(400, 300, 'images/flamengo.jpg')
     start_screen.scale_by(0.8)
     camera.draw(start_screen)
     camera.draw(gamebox.from_text(400, 100, "LIBERTADORES DA AMERICA", 50, 'red', bold=True))
